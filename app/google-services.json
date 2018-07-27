@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "929831613016",
+    "firebase_url": "https://smartb2b-992d0.firebaseio.com",
+    "project_id": "smartb2b-992d0",
+    "storage_bucket": "smartb2b-992d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929831613016:android:a49440fb6d11cc83",
+        "android_client_info": {
+          "package_name": "com.example.virus.smartb2b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929831613016-dbui7jlvg2vbc1ubsflv42rqhhictn85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virus.smartb2b",
+            "certificate_hash": "8ac89bf5f61a320733f5cce9caa194a16234b6c7"
+          }
+        },
+        {
+          "client_id": "929831613016-48odmdb3if224f079qutpoknblbqn95s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKho4RQrzJdW6204JUTwg3TKM_O57LEnk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929831613016-48odmdb3if224f079qutpoknblbqn95s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

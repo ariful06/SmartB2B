@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/result"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/employee" />
+    </group>
+    <item android:title="@string/social">
+        <menu>
+            <item
+                android:id="@+id/fb"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/faacebook" />
+            <item
+                android:id="@+id/gplus"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/google" />
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/twitter" />
+            <item
+                android:id="@+id/youtube"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/youtube" />
+        </menu>
+    </item>
+</menu>

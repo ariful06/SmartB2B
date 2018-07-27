@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OrderStatusActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        </FrameLayout>
+        <io.github.kobakei.materialfabspeeddial.FabSpeedDial
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:fab_menu="@menu/fab"
+            app:fab_miniFabTextColor="@color/colorPrimary"
+            app:fab_useRevealEffect="true"
+            app:fab_fabRippleColor="@color/colorPrimaryDark"
+            app:fab_miniFabRippleColor="@color/colorPrimary"
+            app:fab_touchGuardColor="@color/colorPrimary"
+            app:fab_showHorizontallyOnLandscape="true"/>
+
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_navigation_container"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:itemBackground="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:itemIconTint="@color/colorText"
+            app:itemTextColor="@color/colorText"
+            app:menu="@menu/bottom_navigation">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart B2B</string>
+    <string name="home">Home</string>
+    <string name="social">Social</string>
+    <string name="faacebook">Faacebook</string>
+    <string name="google">Google +</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    <string name="ariful_haque">Ariful Haque</string>
+    <string name="add_employee">Add New</string>
+    <string name="chat">Chat</string>
+
+    <string name="order">Order</string>
+    <string name="customer">Customer</string>
+    <string name="employee">Employees</string>
+    <string name="store">Store</string>
+    <string name="complains">Complains</string>
+    <string name="notice">Notice</string>
+    <string name="category">Category</string>
+
+
+</resources>
